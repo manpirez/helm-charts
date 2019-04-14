@@ -1,4 +1,3 @@
-*.tgz
 .circleci/test.sh
 charts/*/charts
 charts/*/requirements.lock

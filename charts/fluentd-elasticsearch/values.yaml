@@ -587,10 +587,6 @@ configMaps:
       host "#{ENV['OUTPUT_HOST']}"
       port "#{ENV['OUTPUT_PORT']}"
       scheme "#{ENV['OUTPUT_SCHEME']}"
-      ssl_version "#{ENV['OUTPUT_SSL_VERSION']}"
-      ssl_verify false
-      user "#{ENV['OUTPUT_USER']}"
-      password "#{ENV['OUTPUT_PASSWORD']}"
       logstash_format true
       logstash_prefix "#{ENV['LOGSTASH_PREFIX']}"
       reconnect_on_error true
